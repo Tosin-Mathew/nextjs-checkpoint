@@ -1,0 +1,27 @@
+my-portfolio/
+├── app/                    # App Router (Next.js 13+)
+│   ├── about/
+│   │   └── page.tsx
+│   ├── projects/
+│   │   └── page.tsx
+│   ├── contact/
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── components/
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── ProjectCard.tsx
+│   └── ui/
+│       └── Button.tsx
+├── public/
+│   ├── images/
+│   │   ├── profile.jpg
+│   │   ├── project1.jpg
+│   │   └── project2.jpg
+│   └── favicon.ico
+└── styles/
+    ├── globals.css
+    └── components/
+        └── ProjectCard.module.css
